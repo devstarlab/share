@@ -1,4 +1,4 @@
-app_key: "eoqz5cv03gl6pcs"
+app_key: "inbxiy1c4pn04vz"
 app_secret: <%= ENV["APP_SECRET"] %>
 access_token: "gbh9bgj1nvt522ei"
 access_token_secret: <%= ENV["ACCESS_TOKEN_SECRET"] %>
