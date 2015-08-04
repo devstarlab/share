@@ -1,11 +1,15 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);
+
+body {
+  font-family: 'Lato';
+}
+
 .jumbotron { 
-  background-image: url('https://dl.dropboxusercontent.com/s/btdqvxs3e5tcluc/red.png?dl=0');
-  background-size: cover; 
-  background-position: center bottom;
-  height: 400px;
+  background-image: url('red.png');
+  height: 500px;
 }
 
 .jumbotron {
@@ -25,7 +29,7 @@
 .navbar-default { margin-bottom: 0;}
 
 .navbar-default .navbar-brand {
-  font-family: guardian-egyptt, georgia, serif;
+  font-family: 'Lato';
   font-weight: 400;
   color: #d5641c;
   font-size: 30px;
